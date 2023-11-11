@@ -1,0 +1,966 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "minArrayJumps",
+      "request": "launch",
+      "mainClass": "minArrayJumps",
+      "projectName": "CODE FILE JAVA_1cdcefe2"
+    },
+    {
+      "type": "java",
+      "name": "minimunPartitioning",
+      "request": "launch",
+      "mainClass": "minimunPartitioning",
+      "projectName": "CODE FILE JAVA_1cdcefe2"
+    },
+    {
+      "type": "java",
+      "name": "matrixChainMultipication",
+      "request": "launch",
+      "mainClass": "matrixChainMultipication",
+      "projectName": "CODE FILE JAVA_1cdcefe2"
+    },
+    {
+      "type": "java",
+      "name": "catalan",
+      "request": "launch",
+      "mainClass": "catalan",
+      "projectName": "CODE FILE JAVA_1cdcefe2"
+    },
+    {
+      "type": "java",
+      "name": "wiildCardMatch",
+      "request": "launch",
+      "mainClass": "wiildCardMatch",
+      "projectName": "CODE FILE JAVA_1cdcefe2"
+    },
+    {
+      "type": "java",
+      "name": "editDistance",
+      "request": "launch",
+      "mainClass": "editDistance",
+      "projectName": "CODE FILE JAVA_1cdcefe2"
+    },
+    {
+      "type": "java",
+      "name": "longestIncreasingSubsequence",
+      "request": "launch",
+      "mainClass": "longestIncreasingSubsequence",
+      "projectName": "CODE FILE JAVA_1cdcefe2"
+    },
+    {
+      "type": "java",
+      "name": "longestCommonSubstring",
+      "request": "launch",
+      "mainClass": "longestCommonSubstring",
+      "projectName": "CODE FILE JAVA_1cdcefe2"
+    },
+    {
+      "type": "java",
+      "name": "longestCommonSubsequence",
+      "request": "launch",
+      "mainClass": "longestCommonSubsequence",
+      "projectName": "CODE FILE JAVA_1cdcefe2"
+    },
+    {
+      "type": "java",
+      "name": "coinChange",
+      "request": "launch",
+      "mainClass": "coinChange",
+      "projectName": "CODE FILE JAVA_1cdcefe2"
+    },
+    {
+      "type": "java",
+      "name": "unboundedKnapSack",
+      "request": "launch",
+      "mainClass": "unboundedKnapSack",
+      "projectName": "CODE FILE JAVA_1cdcefe2"
+    },
+    {
+      "type": "java",
+      "name": "targetSum",
+      "request": "launch",
+      "mainClass": "targetSum",
+      "projectName": "CODE FILE JAVA_1cdcefe2"
+    },
+    {
+      "type": "java",
+      "name": "knapsack",
+      "request": "launch",
+      "mainClass": "knapsack",
+      "projectName": "CODE FILE JAVA_1cdcefe2"
+    },
+    {
+      "type": "java",
+      "name": "articulationTarjans",
+      "request": "launch",
+      "mainClass": "articulationTarjans",
+      "projectName": "CODE FILE JAVA_1cdcefe2"
+    },
+    {
+      "type": "java",
+      "name": "tarjansArticulation",
+      "request": "launch",
+      "mainClass": "tarjansArticulation",
+      "projectName": "CODE FILE JAVA_1cdcefe2"
+    },
+    {
+      "type": "java",
+      "name": "climbingStairs",
+      "request": "launch",
+      "mainClass": "climbingStairs",
+      "projectName": "CODE FILE JAVA_1cdcefe2"
+    },
+    {
+      "type": "java",
+      "name": "sccKosarajuAlgo",
+      "request": "launch",
+      "mainClass": "sccKosarajuAlgo",
+      "projectName": "CODE FILE JAVA_1cdcefe2"
+    },
+    {
+      "type": "java",
+      "name": "kruskalAlgo",
+      "request": "launch",
+      "mainClass": "kruskalAlgo",
+      "projectName": "CODE FILE JAVA_1cdcefe2"
+    },
+    {
+      "type": "java",
+      "name": "ratMaze",
+      "request": "launch",
+      "mainClass": "ratMaze",
+      "projectName": "CODE FILE JAVA_1cdcefe2"
+    },
+    {
+      "type": "java",
+      "name": "nqueen",
+      "request": "launch",
+      "mainClass": "nqueen",
+      "projectName": "CODE FILE JAVA_1cdcefe2"
+    },
+    {
+      "type": "java",
+      "name": "disjointSetDS",
+      "request": "launch",
+      "mainClass": "disjointSetDS",
+      "projectName": "CODE FILE JAVA_1cdcefe2"
+    },
+    {
+      "type": "java",
+      "name": "connectCitiesMst",
+      "request": "launch",
+      "mainClass": "connectCitiesMst",
+      "projectName": "CODE FILE JAVA_1cdcefe2"
+    },
+    {
+      "type": "java",
+      "name": "cheapFlightinKStep",
+      "request": "launch",
+      "mainClass": "cheapFlightinKStep",
+      "projectName": "CODE FILE JAVA_1cdcefe2"
+    },
+    {
+      "type": "java",
+      "name": "primsGraph",
+      "request": "launch",
+      "mainClass": "primsGraph",
+      "projectName": "CODE FILE JAVA_1cdcefe2"
+    },
+    {
+      "type": "java",
+      "name": "topologicalSort",
+      "request": "launch",
+      "mainClass": "topologicalSort",
+      "projectName": "CODE FILE JAVA_1cdcefe2"
+    },
+    {
+      "type": "java",
+      "name": "cycleDetectionDirectionalGraph",
+      "request": "launch",
+      "mainClass": "cycleDetectionDirectionalGraph",
+      "projectName": "CODE FILE JAVA_1cdcefe2"
+    },
+    {
+      "type": "java",
+      "name": "bipartiteGraph",
+      "request": "launch",
+      "mainClass": "bipartiteGraph",
+      "projectName": "CODE FILE JAVA_1cdcefe2"
+    },
+    {
+      "type": "java",
+      "name": "cycleDetection",
+      "request": "launch",
+      "mainClass": "cycleDetection",
+      "projectName": "CODE FILE JAVA_1cdcefe2"
+    },
+    {
+      "type": "java",
+      "name": "hsaPathDFSQue",
+      "request": "launch",
+      "mainClass": "hsaPathDFSQue",
+      "projectName": "CODE FILE JAVA_1cdcefe2"
+    },
+    {
+      "type": "java",
+      "name": "BFS",
+      "request": "launch",
+      "mainClass": "BFS",
+      "projectName": "CODE FILE JAVA_1cdcefe2"
+    },
+    {
+      "type": "java",
+      "name": "graphs",
+      "request": "launch",
+      "mainClass": "graphs",
+      "projectName": "CODE FILE JAVA_1cdcefe2"
+    },
+    {
+      "type": "java",
+      "name": "uniqueSubstringUsingTrie",
+      "request": "launch",
+      "mainClass": "uniqueSubstringUsingTrie",
+      "projectName": "CODE FILE JAVA_1cdcefe2"
+    },
+    {
+      "type": "java",
+      "name": "prefixProblem",
+      "request": "launch",
+      "mainClass": "prefixProblem",
+      "projectName": "CODE FILE JAVA_1cdcefe2"
+    },
+    {
+      "type": "java",
+      "name": "substringcalculation",
+      "request": "launch",
+      "mainClass": "substringcalculation",
+      "projectName": "CODE FILE JAVA_1cdcefe2"
+    },
+    {
+      "type": "java",
+      "name": "triesCreate",
+      "request": "launch",
+      "mainClass": "triesCreate",
+      "projectName": "CODE FILE JAVA_1cdcefe2"
+    },
+    {
+      "type": "java",
+      "name": "subarraySumeqaulsK",
+      "request": "launch",
+      "mainClass": "subarraySumeqaulsK",
+      "projectName": "CODE FILE JAVA_1cdcefe2"
+    },
+    {
+      "type": "java",
+      "name": "largestSubarraywithSum0",
+      "request": "launch",
+      "mainClass": "largestSubarraywithSum0",
+      "projectName": "CODE FILE JAVA_1cdcefe2"
+    },
+    {
+      "type": "java",
+      "name": "iteratryTicket",
+      "request": "launch",
+      "mainClass": "iteratryTicket",
+      "projectName": "CODE FILE JAVA_1cdcefe2"
+    },
+    {
+      "type": "java",
+      "name": "unionIntersectionHashSet",
+      "request": "launch",
+      "mainClass": "unionIntersectionHashSet",
+      "projectName": "CODE FILE JAVA_1cdcefe2"
+    },
+    {
+      "type": "java",
+      "name": "hashSet",
+      "request": "launch",
+      "mainClass": "hashSet",
+      "projectName": "CODE FILE JAVA_1cdcefe2"
+    },
+    {
+      "type": "java",
+      "name": "validAnagrams",
+      "request": "launch",
+      "mainClass": "validAnagrams",
+      "projectName": "CODE FILE JAVA_1cdcefe2"
+    },
+    {
+      "type": "java",
+      "name": "majorityNumbers",
+      "request": "launch",
+      "mainClass": "majorityNumbers",
+      "projectName": "CODE FILE JAVA_1cdcefe2"
+    },
+    {
+      "type": "java",
+      "name": "linkefHashMap",
+      "request": "launch",
+      "mainClass": "linkefHashMap",
+      "projectName": "CODE FILE JAVA_1cdcefe2"
+    },
+    {
+      "type": "java",
+      "name": "practicejava1",
+      "request": "launch",
+      "mainClass": "practicejava1",
+      "projectName": "CODE FILE JAVA_1cdcefe2"
+    },
+    {
+      "type": "java",
+      "name": "hashMapImplementation",
+      "request": "launch",
+      "mainClass": "hashMapImplementation",
+      "projectName": "CODE FILE JAVA_1cdcefe2"
+    },
+    {
+      "type": "java",
+      "name": "hashMap",
+      "request": "launch",
+      "mainClass": "hashMap",
+      "projectName": "CODE FILE JAVA_1cdcefe2"
+    },
+    {
+      "type": "java",
+      "name": "hashMap",
+      "request": "launch",
+      "mainClass": "HashMap.hashMap",
+      "projectName": "CODE FILE JAVA_1cdcefe2"
+    },
+    {
+      "type": "java",
+      "name": "nRopesQueue",
+      "request": "launch",
+      "mainClass": "nRopesQueue",
+      "projectName": "CODE FILE JAVA_1cdcefe2"
+    },
+    {
+      "type": "java",
+      "name": "weakestSoldier",
+      "request": "launch",
+      "mainClass": "weakestSoldier",
+      "projectName": "CODE FILE JAVA_1cdcefe2"
+    },
+    {
+      "type": "java",
+      "name": "connectNropes",
+      "request": "launch",
+      "mainClass": "connectNropes",
+      "projectName": "CODE FILE JAVA_1cdcefe2"
+    },
+    {
+      "type": "java",
+      "name": "nearlyCars",
+      "request": "launch",
+      "mainClass": "nearlyCars",
+      "projectName": "CODE FILE JAVA_1cdcefe2"
+    },
+    {
+      "type": "java",
+      "name": "heapSort",
+      "request": "launch",
+      "mainClass": "heapSort",
+      "projectName": "CODE FILE JAVA_1cdcefe2"
+    },
+    {
+      "type": "java",
+      "name": "priorityQueue",
+      "request": "launch",
+      "mainClass": "priorityQueue",
+      "projectName": "CODE FILE JAVA_1cdcefe2"
+    },
+    {
+      "type": "java",
+      "name": "sizeOfLargestBST",
+      "request": "launch",
+      "mainClass": "sizeOfLargestBST",
+      "projectName": "CODE FILE JAVA_1cdcefe2"
+    },
+    {
+      "type": "java",
+      "name": "rotation_search",
+      "request": "launch",
+      "mainClass": "rotation_search",
+      "projectName": "CODE FILE JAVA_1cdcefe2"
+    },
+    {
+      "type": "java",
+      "name": "practiceJava",
+      "request": "launch",
+      "mainClass": "practiceJava",
+      "projectName": "CODE FILE JAVA_1cdcefe2"
+    },
+    {
+      "type": "java",
+      "name": "binarySearchTree",
+      "request": "launch",
+      "mainClass": "binarySearchTree",
+      "projectName": "CODE FILE JAVA_1cdcefe2"
+    },
+    {
+      "type": "java",
+      "name": "transformSumBinarytree",
+      "request": "launch",
+      "mainClass": "transformSumBinarytree",
+      "projectName": "CODE FILE JAVA_1cdcefe2"
+    },
+    {
+      "type": "java",
+      "name": "kthlevel",
+      "request": "launch",
+      "mainClass": "kthlevel",
+      "projectName": "CODE FILE JAVA_1cdcefe2"
+    },
+    {
+      "type": "java",
+      "name": "topviewofTree",
+      "request": "launch",
+      "mainClass": "topviewofTree",
+      "projectName": "CODE FILE JAVA_1cdcefe2"
+    },
+    {
+      "type": "java",
+      "name": "sudoku_solver",
+      "request": "launch",
+      "mainClass": "sudoku_solver",
+      "projectName": "CODE FILE JAVA_1cdcefe2"
+    },
+    {
+      "type": "java",
+      "name": "subTreeBinaryTree",
+      "request": "launch",
+      "mainClass": "subTreeBinaryTree",
+      "projectName": "CODE FILE JAVA_1cdcefe2"
+    },
+    {
+      "type": "java",
+      "name": "heightOFBinaryTree",
+      "request": "launch",
+      "mainClass": "heightOFBinaryTree",
+      "projectName": "CODE FILE JAVA_1cdcefe2"
+    },
+    {
+      "type": "java",
+      "name": "binaryTree",
+      "request": "launch",
+      "mainClass": "binaryTree",
+      "projectName": "CODE FILE JAVA_1cdcefe2"
+    },
+    {
+      "type": "java",
+      "name": "chocolateProblemGreedy",
+      "request": "launch",
+      "mainClass": "chocolateProblemGreedy",
+      "projectName": "CODE FILE JAVA_1cdcefe2"
+    },
+    {
+      "type": "java",
+      "name": "jobSequenceGreedy",
+      "request": "launch",
+      "mainClass": "jobSequenceGreedy",
+      "projectName": "CODE FILE JAVA_1cdcefe2"
+    },
+    {
+      "type": "java",
+      "name": "maxChainLength",
+      "request": "launch",
+      "mainClass": "maxChainLength",
+      "projectName": "CODE FILE_a861adf2"
+    },
+    {
+      "type": "java",
+      "name": "fractionalKnapsack",
+      "request": "launch",
+      "mainClass": "fractionalKnapsack",
+      "projectName": "CODE FILE_a861adf2"
+    },
+    {
+      "type": "java",
+      "name": "activitySelectionGreedy",
+      "request": "launch",
+      "mainClass": "activitySelectionGreedy",
+      "projectName": "CODE FILE_a861adf2"
+    },
+    {
+      "type": "java",
+      "name": "maxOfContigeniousArr",
+      "request": "launch",
+      "mainClass": "maxOfContigeniousArr",
+      "projectName": "CODE FILE_a861adf2"
+    },
+    {
+      "type": "java",
+      "name": "reverseFirstKElementofQueue",
+      "request": "launch",
+      "mainClass": "reverseFirstKElementofQueue",
+      "projectName": "CODE FILE_a861adf2"
+    },
+    {
+      "type": "java",
+      "name": "queueUsingDequeue",
+      "request": "launch",
+      "mainClass": "queueUsingDequeue",
+      "projectName": "CODE FILE_a861adf2"
+    },
+    {
+      "type": "java",
+      "name": "stackUsingDequeue",
+      "request": "launch",
+      "mainClass": "stackUsingDequeue",
+      "projectName": "CODE FILE_a861adf2"
+    },
+    {
+      "type": "java",
+      "name": "printBinaryTillN",
+      "request": "launch",
+      "mainClass": "printBinaryTillN",
+      "projectName": "CODE FILE_a861adf2"
+    },
+    {
+      "type": "java",
+      "name": "queueUsing2Stackremn",
+      "request": "launch",
+      "mainClass": "queueUsing2Stackremn",
+      "projectName": "CODE FILE_a861adf2"
+    },
+    {
+      "type": "java",
+      "name": "interLeave2Halvesqueue",
+      "request": "launch",
+      "mainClass": "interLeave2Halvesqueue",
+      "projectName": "CODE FILE_a861adf2"
+    },
+    {
+      "type": "java",
+      "name": "firstNonRepChar",
+      "request": "launch",
+      "mainClass": "firstNonRepChar",
+      "projectName": "CODE FILE_a861adf2"
+    },
+    {
+      "type": "java",
+      "name": "stack2Queue",
+      "request": "launch",
+      "mainClass": "stack2Queue",
+      "projectName": "CODE FILE_a861adf2"
+    },
+    {
+      "type": "java",
+      "name": "queue2Stack",
+      "request": "launch",
+      "mainClass": "queue2Stack",
+      "projectName": "CODE FILE_a861adf2"
+    },
+    {
+      "type": "java",
+      "name": "queue",
+      "request": "launch",
+      "mainClass": "queue",
+      "projectName": "CODE FILE_a861adf2"
+    },
+    {
+      "type": "java",
+      "name": "maxAreaInHisto",
+      "request": "launch",
+      "mainClass": "maxAreaInHisto",
+      "projectName": "CODE FILE_a861adf2"
+    },
+    {
+      "type": "java",
+      "name": "duplicateParenthesis",
+      "request": "launch",
+      "mainClass": "duplicateParenthesis",
+      "projectName": "CODE FILE_a861adf2"
+    },
+    {
+      "type": "java",
+      "name": "validParenthesis",
+      "request": "launch",
+      "mainClass": "validParenthesis",
+      "projectName": "CODE FILE_a861adf2"
+    },
+    {
+      "type": "java",
+      "name": "nextGreaterElement",
+      "request": "launch",
+      "mainClass": "nextGreaterElement",
+      "projectName": "CODE FILE_a861adf2"
+    },
+    {
+      "type": "java",
+      "name": "stockspan",
+      "request": "launch",
+      "mainClass": "stockspan",
+      "projectName": "CODE FILE_a861adf2"
+    },
+    {
+      "type": "java",
+      "name": "reverseStack",
+      "request": "launch",
+      "mainClass": "reverseStack",
+      "projectName": "CODE FILE_a861adf2"
+    },
+    {
+      "type": "java",
+      "name": "bootomOfStack",
+      "request": "launch",
+      "mainClass": "bootomOfStack",
+      "projectName": "CODE FILE_a861adf2"
+    },
+    {
+      "type": "java",
+      "name": "stackLL",
+      "request": "launch",
+      "mainClass": "stackLL",
+      "projectName": "CODE FILE_a861adf2"
+    },
+    {
+      "type": "java",
+      "name": "oddEvenLL",
+      "request": "launch",
+      "mainClass": "oddEvenLL",
+      "projectName": "CODE FILE_a861adf2"
+    },
+    {
+      "type": "java",
+      "name": "intersectionTwoLL",
+      "request": "launch",
+      "mainClass": "intersectionTwoLL",
+      "projectName": "CODE FILE_a861adf2"
+    },
+    {
+      "type": "java",
+      "name": "stackArrayList",
+      "request": "launch",
+      "mainClass": "stackArrayList",
+      "projectName": "CODE FILE_a861adf2"
+    },
+    {
+      "type": "java",
+      "name": "circularLL",
+      "request": "launch",
+      "mainClass": "circularLL",
+      "projectName": "CODE FILE_a861adf2"
+    },
+    {
+      "type": "java",
+      "name": "doublyLinkedList",
+      "request": "launch",
+      "mainClass": "doublyLinkedList",
+      "projectName": "CODE FILE_a861adf2"
+    },
+    {
+      "type": "java",
+      "name": "spiralordermatrix",
+      "request": "launch",
+      "mainClass": "spiralordermatrix",
+      "projectName": "CODE FILE_a861adf2"
+    },
+    {
+      "type": "java",
+      "name": "spiralmatrix",
+      "request": "launch",
+      "mainClass": "spiralmatrix",
+      "projectName": "CODE FILE_a861adf2"
+    },
+    {
+      "type": "java",
+      "name": "sudoku_solver",
+      "request": "launch",
+      "mainClass": "sudoku_solver",
+      "projectName": "CODE FILE_a861adf2"
+    },
+    {
+      "type": "java",
+      "name": "mergSortLL",
+      "request": "launch",
+      "mainClass": "mergSortLL",
+      "projectName": "CODE FILE_a861adf2"
+    },
+    {
+      "type": "java",
+      "name": "FlyedsCycleFindLL",
+      "request": "launch",
+      "mainClass": "FlyedsCycleFindLL",
+      "projectName": "CODE FILE_a861adf2"
+    },
+    {
+      "type": "java",
+      "name": "LinkedList",
+      "request": "launch",
+      "mainClass": "LinkedList",
+      "projectName": "CODE FILE_a861adf2"
+    },
+    {
+      "type": "java",
+      "name": "practicejava",
+      "request": "launch",
+      "mainClass": "practicejava",
+      "projectName": "CODE FILE_a861adf2"
+    },
+    {
+      "type": "java",
+      "name": "pairSum_ArrayList",
+      "request": "launch",
+      "mainClass": "pairSum_ArrayList",
+      "projectName": "CODE FILE_a861adf2"
+    },
+    {
+      "type": "java",
+      "name": "waterContainer_ArrayList",
+      "request": "launch",
+      "mainClass": "waterContainer_ArrayList",
+      "projectName": "CODE FILE_a861adf2"
+    },
+    {
+      "type": "java",
+      "name": "gidWays",
+      "request": "launch",
+      "mainClass": "gidWays",
+      "projectName": "CODE FILE_a861adf2"
+    },
+    {
+      "type": "java",
+      "name": "Array_List",
+      "request": "launch",
+      "mainClass": "Array_List",
+      "projectName": "CODE FILE_a861adf2"
+    },
+    {
+      "type": "java",
+      "name": "practicejava1",
+      "request": "launch",
+      "mainClass": "practicejava1",
+      "projectName": "CODE FILE_a861adf2"
+    },
+    {
+      "type": "java",
+      "name": "practiceJava",
+      "request": "launch",
+      "mainClass": "practiceJava",
+      "projectName": "CODE FILE_a861adf2"
+    },
+    {
+      "type": "java",
+      "name": "friends_pairing_problem",
+      "request": "launch",
+      "mainClass": "friends_pairing_problem",
+      "projectName": "CODE FILE_a861adf2"
+    },
+    {
+      "type": "java",
+      "name": "BinarySearch",
+      "request": "launch",
+      "mainClass": "BinarySearch",
+      "projectName": "CODE FILE_a861adf2"
+    },
+    {
+      "type": "java",
+      "name": "rotation_search",
+      "request": "launch",
+      "mainClass": "rotation_search",
+      "projectName": "CODE FILE_fb0176f4"
+    },
+    {
+      "type": "java",
+      "name": "TILING_RECURSIVE_FUNCTION",
+      "request": "launch",
+      "mainClass": "TILING_RECURSIVE_FUNCTION",
+      "projectName": "CODE FILE_fb0176f4"
+    },
+    {
+      "type": "java",
+      "name": "Launch oop2",
+      "request": "launch",
+      "mainClass": "oop2",
+      "projectName": "CODE FILE_fb0176f4"
+    },
+    {
+      "type": "java",
+      "name": "Launch oops",
+      "request": "launch",
+      "mainClass": "oops",
+      "projectName": "CODE FILE_fb0176f4"
+    },
+    {
+      "type": "java",
+      "name": "Launch stringarray",
+      "request": "launch",
+      "mainClass": "stringarray",
+      "projectName": "CODE FILE_fb0176f4"
+    },
+    {
+      "type": "java",
+      "name": "Launch compress_String",
+      "request": "launch",
+      "mainClass": "compress_String",
+      "projectName": "CODE FILE_fb0176f4"
+    },
+    {
+      "type": "java",
+      "name": "Launch practicejava1",
+      "request": "launch",
+      "mainClass": "practicejava1",
+      "projectName": "CODE FILE_fb0176f4"
+    },
+    {
+      "type": "java",
+      "name": "Launch Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "Launch BinarySearch",
+      "request": "launch",
+      "mainClass": "BinarySearch",
+      "projectName": "CODE FILE_fb0176f4"
+    },
+    {
+      "type": "java",
+      "name": "Launch FirstClass",
+      "request": "launch",
+      "mainClass": "FirstClass",
+      "projectName": "CODE FILE_fb0176f4"
+    },
+    {
+      "type": "java",
+      "name": "Launch Writeaprogramtoenterthenumberstilltheuserwantsandattheendit",
+      "request": "launch",
+      "mainClass": "Writeaprogramtoenterthenumberstilltheuserwantsandattheendit",
+      "projectName": "CODE FILE_fb0176f4"
+    },
+    {
+      "type": "java",
+      "name": "Launch all_sorting_code",
+      "request": "launch",
+      "mainClass": "all_sorting_code",
+      "projectName": "CODE FILE_fb0176f4"
+    },
+    {
+      "type": "java",
+      "name": "Launch bubbleSort",
+      "request": "launch",
+      "mainClass": "bubbleSort",
+      "projectName": "CODE FILE_fb0176f4"
+    },
+    {
+      "type": "java",
+      "name": "Launch buyandsellstock",
+      "request": "launch",
+      "mainClass": "buyandsellstock",
+      "projectName": "CODE FILE_fb0176f4"
+    },
+    {
+      "type": "java",
+      "name": "Launch calculateshortestditance",
+      "request": "launch",
+      "mainClass": "calculateshortestditance",
+      "projectName": "CODE FILE_fb0176f4"
+    },
+    {
+      "type": "java",
+      "name": "Launch elemantatindexafterrotation",
+      "request": "launch",
+      "mainClass": "elemantatindexafterrotation",
+      "projectName": "CODE FILE_fb0176f4"
+    },
+    {
+      "type": "java",
+      "name": "Launch insertionSort",
+      "request": "launch",
+      "mainClass": "insertionSort",
+      "projectName": "CODE FILE_fb0176f4"
+    },
+    {
+      "type": "java",
+      "name": "Launch ispelindrome",
+      "request": "launch",
+      "mainClass": "ispelindrome",
+      "projectName": "CODE FILE_fb0176f4"
+    },
+    {
+      "type": "java",
+      "name": "Launch maxsubarraykadans",
+      "request": "launch",
+      "mainClass": "maxsubarraykadans",
+      "projectName": "CODE FILE_fb0176f4"
+    },
+    {
+      "type": "java",
+      "name": "Launch practiceJava",
+      "request": "launch",
+      "mainClass": "practiceJava",
+      "projectName": "CODE FILE_fb0176f4"
+    },
+    {
+      "type": "java",
+      "name": "Launch print_Max_sumofsubArray",
+      "request": "launch",
+      "mainClass": "print_Max_sumofsubArray",
+      "projectName": "CODE FILE_fb0176f4"
+    },
+    {
+      "type": "java",
+      "name": "Launch print_Sub_Array",
+      "request": "launch",
+      "mainClass": "print_Sub_Array",
+      "projectName": "CODE FILE_fb0176f4"
+    },
+    {
+      "type": "java",
+      "name": "Launch reversematrix",
+      "request": "launch",
+      "mainClass": "reversematrix",
+      "projectName": "CODE FILE_fb0176f4"
+    },
+    {
+      "type": "java",
+      "name": "Launch spiralmatrix",
+      "request": "launch",
+      "mainClass": "spiralmatrix",
+      "projectName": "CODE FILE_fb0176f4"
+    },
+    {
+      "type": "java",
+      "name": "Launch spiralordermatrix",
+      "request": "launch",
+      "mainClass": "spiralordermatrix",
+      "projectName": "CODE FILE_fb0176f4"
+    },
+    {
+      "type": "java",
+      "name": "Launch staircasesort",
+      "request": "launch",
+      "mainClass": "staircasesort",
+      "projectName": "CODE FILE_fb0176f4"
+    },
+    {
+      "type": "java",
+      "name": "Launch sum_of_diagonal_matrix",
+      "request": "launch",
+      "mainClass": "sum_of_diagonal_matrix",
+      "projectName": "CODE FILE_fb0176f4"
+    },
+    {
+      "type": "java",
+      "name": "Launch transposeofmatrix",
+      "request": "launch",
+      "mainClass": "transposeofmatrix",
+      "projectName": "CODE FILE_fb0176f4"
+    },
+    {
+      "type": "java",
+      "name": "Launch trappingrainwater",
+      "request": "launch",
+      "mainClass": "trappingrainwater",
+      "projectName": "CODE FILE_fb0176f4"
+    }
+  ]
+}
