@@ -6,6 +6,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "gidWays",
+      "request": "launch",
+      "mainClass": "gidWays",
+      "projectName": "CODE-FILE-main_a4aa01e6"
+    },
+    {
+      "type": "java",
+      "name": "nqueen",
+      "request": "launch",
+      "mainClass": "nqueen",
+      "projectName": "CODE-FILE-main_a4aa01e6"
+    },
+    {
+      "type": "java",
+      "name": "practiceJava",
+      "request": "launch",
+      "mainClass": "practiceJava",
+      "projectName": "CODE-FILE-main_332f4cd9"
+    },
+    {
+      "type": "java",
+      "name": "BFS",
+      "request": "launch",
+      "mainClass": "BFS",
+      "projectName": "CODE-FILE-main_332f4cd9"
+    },
+    {
+      "type": "java",
       "name": "minArrayJumps",
       "request": "launch",
       "mainClass": "minArrayJumps",

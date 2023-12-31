@@ -8,7 +8,7 @@ public class cycleDetection {
             this.src=s;
             this.dest= d;
         }
-    }//not eorking
+    }//not working
     static void createGraph(ArrayList<Edge> graph[]){
         for(int i=0;i<graph.length;i++){
             graph[i] = new ArrayList<>();
