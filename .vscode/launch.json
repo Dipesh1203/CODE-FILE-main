@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "connectedComp",
+      "request": "launch",
+      "mainClass": "connectedComp",
+      "projectName": "CODE-FILE-main_a4aa01e6"
+    },
+    {
+      "type": "java",
+      "name": "practicejava1",
+      "request": "launch",
+      "mainClass": "practicejava1",
+      "projectName": "CODE-FILE-main_a4aa01e6"
+    },
+    {
+      "type": "java",
+      "name": "practiceJava",
+      "request": "launch",
+      "mainClass": "practiceJava",
+      "projectName": "CODE-FILE-main_a4aa01e6"
+    },
+    {
+      "type": "java",
       "name": "gidWays",
       "request": "launch",
       "mainClass": "gidWays",

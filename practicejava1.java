@@ -1,42 +1,59 @@
 import java.util.*;
-import java.util.ArrayList;
 
 public class practicejava1 {
-    static class Edge{
-        int src;
-        int dest;
-        public Edge(int s,int d){
-            this.src=s;
-            this.dest= d;
+    public static void subarray(int arr[], Set<ArrayList<Integer>> list) {
+        for (int i = 0; i < arr.length; i++) {
+            // single
+            ArrayList<Integer> arr1 = new ArrayList<>();
+            arr1.add(arr[i]);
+            // from start to i
+
+            ArrayList<Integer> arr2 = new ArrayList<>();
+
+            for (int j = 0; j <= i; j++) {
+                arr2.add(arr[j]);
+            }
+            // from i to end
+            ArrayList<Integer> arr3 = new ArrayList<>();
+            for (int j = i; j < arr.length; j++) {
+                arr3.add(arr[j]);
+            }
+            // i to n-i
+            ArrayList<Integer> arr4 = new ArrayList<>();
+            for (int j = i; j <= arr.length - i - 1; j++) {
+                arr4.add(arr[j]);
+            }
+            list.add(arr1);
+            list.add(arr2);
+            list.add(arr3);
+            list.add(arr4);
         }
-    }//not eorking
-    static void createGraph(ArrayList<Edge> graph[]){
-        for(int i=0;i<graph.length;i++){
-            graph[i] = new ArrayList<>();
-        }
-        graph[0].add(new Edge(0,1));
-        graph[0].add(new Edge(0,2));
-
-        graph[1].add(new Edge(1,0));
-        graph[1].add(new Edge(1,2));
-
-        graph[2].add(new Edge(2,0));
-        graph[2].add(new Edge(2,1));
-
-        graph[3].add(new Edge(3, 0));
-        graph[3].add(new Edge(3,4));
-
-        graph[4].add(new Edge(4,3));
     }
-    
-    public static boolean dfsDetect(ArrayList<Edge>[] graph){
-        vis[curr] =
-    } 
 
-    public static void main(String[] args) {
-        int V =5;
-        ArrayList<Edge>[] graph = new ArrayList[V];
-        createGraph(graph);
-        System.out.println(detectCycle(graph));
+    public static void printSet(Set<ArrayList<Integer>> list) {
+        for (ArrayList<Integer> a : list) {
+            for (int i = 0; i < a.size(); i++) {
+                System.out.print(a.get(i) + " ");
+            }
+            System.out.println();
+        }
+    }
+
+    public static void main(String args[]) {
+        int arr[] = { 11, 81, 94, 43, 3 };
+        Set<ArrayList<Integer>> list = new HashSet<>();
+        subarray(arr, list);
+        printSet(list);
+        int sum = 0;
+        for (ArrayList<Integer> a : list) {
+            int min = Integer.MAX_VALUE;
+            for (int i = 0; i < a.size(); i++) {
+                min = Math.min(a.get(i), min);
+            }
+            if (min != Integer.MAX_VALUE)
+                sum += min;
+        }
+        System.out.println("->" + sum);
+
     }
 }
