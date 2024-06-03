@@ -48,4 +48,5 @@ public class prefixProblem {
         root.freq=-1;
         findPrefix(root, "");
     }
+    
 }

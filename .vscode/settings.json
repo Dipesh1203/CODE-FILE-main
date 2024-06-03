@@ -1,7 +1,0 @@
-{
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "[java]": {
-    "editor.defaultFormatter": "redhat.java"
-  },
-  "java.debug.settings.onBuildFailureProceed": true
-}
