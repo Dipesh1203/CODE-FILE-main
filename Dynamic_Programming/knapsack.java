@@ -1,23 +1,23 @@
 import java.util.*;
 
 public class knapsack {
-    // public static int knapsack(int val[], int wt[], int W, int n) {
-    // if (W == 0 || n == 0) {
-    // return 0;
-    // }
-    // if (wt[n - 1] <= W) {// valid
-    // // include
-    // int ans1 = val[n - 1] + knapsack(val, wt, W - wt[n - 1], n - 1);
-    // // exclude
-    // int ans2 = knapsack(val, wt, W, n - 1);
-    // return Math.max(ans1, ans2);
-    // } else {
-    // return knapsack(val, wt, W, n - 1);
-    // }
-    // }
+    public static int knapsack(int val[], int wt[], int W, int n) {
+        if (W == 0 || n == 0) {
+            return 0;
+        }
+        if (wt[n - 1] <= W) {// valid
+            // include
+            int ans1 = val[n - 1] + knapsack(val, wt, W - wt[n - 1], n - 1);
+            // exclude
+            int ans2 = knapsack(val, wt, W, n - 1);
+            return Math.max(ans1, ans2);
+        } else {
+            return knapsack(val, wt, W, n - 1);
+        }
+    }
 
     // memoization
-    public static int knapsack(int val[], int wt[], int W, int n, int dp[][]) {
+    public static int knapsackmemoization(int val[], int wt[], int W, int n, int dp[][]) {
         if (W == 0 || n == 0) {
             return 0;
         }
@@ -25,38 +25,37 @@ public class knapsack {
             return dp[n][W];
         if (wt[n - 1] <= W) {// valid
             // include
-            int ans1 = val[n - 1] + knapsack(val, wt, W - wt[n - 1], n - 1, dp);
+            int ans1 = val[n - 1] + knapsackmemoization(val, wt, W - wt[n - 1], n - 1, dp);
             // exclude
-            int ans2 = knapsack(val, wt, W, n - 1, dp);
+            int ans2 = knapsackmemoization(val, wt, W, n - 1, dp);
             dp[n][W] = Math.max(ans1, ans2);
             return dp[n][W];
         } else {
-            dp[n][W] = knapsack(val, wt, W, n - 1, dp);
+            dp[n][W] = knapsackmemoization(val, wt, W, n - 1, dp);
             return dp[n][W];
         }
     }
 
     // tabulation
-    // public static int knapsackTabulation(int val[], int wt[], int W, int n, int
-    // dp[][]) {
-    // for (int i = n; i >= 0; i--) {
-    // for (int j = W; j >= 0; j--) {
-    // if (j == 0 || i == 0)
-    // return 0;
-    // if (dp[i][j] != -1)
-    // return dp[i][j];
-    // if (wt[i - 1] <= j) {
-    // int ans1 = val[i - 1] + dp[i - 1][j - wt[i - 1]];
-    // int ans2 = dp[i - 1][j];
-    // dp[i][j] = Math.max(ans1, ans2);
-    // return dp[i][j];
-    // } else {
-    // return dp[i - 1][j];
-    // }
-    // }
-    // }
-    // return 0;
-    // }
+    public static int knapsackTabulation(int val[], int wt[], int W, int n, int dp[][]) {
+        for (int i = n; i >= 0; i--) {
+            for (int j = W; j >= 0; j--) {
+                if (j == 0 || i == 0)
+                    return 0;
+                if (dp[i][j] != -1)
+                    return dp[i][j];
+                if (wt[i - 1] <= j) {
+                    int ans1 = val[i - 1] + dp[i - 1][j - wt[i - 1]];
+                    int ans2 = dp[i - 1][j];
+                    dp[i][j] = Math.max(ans1, ans2);
+                    return dp[i][j];
+                } else {
+                    return dp[i - 1][j];
+                }
+            }
+        }
+        return 0;
+    }
 
     public static void printDp(int dp[][]) {
         for (int i = 0; i < dp.length; i++) {

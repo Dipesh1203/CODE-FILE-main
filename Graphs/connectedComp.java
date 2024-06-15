@@ -76,6 +76,7 @@ public class connectedComp {
         ArrayList<Edge>[] graph = new ArrayList[V];
         createGraph(graph);
         bfs(graph);
+        System.out.println();
         dfs(graph);
 
     }
