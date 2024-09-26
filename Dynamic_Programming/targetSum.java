@@ -31,6 +31,12 @@ public class targetSum {
                 }
             }
         }
+        for (boolean i[] : dp) {
+            for (boolean j : i) {
+                System.out.print(j + " ");
+            }
+            System.out.println();
+        }
         printDp(dp);
         return dp[n][sum];
     }
