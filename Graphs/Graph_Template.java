@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Queue;
 
-public class createGraphTemplate {
+public class Graph_Template {
     public static class edge {
         int src, dest;
 

@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.PriorityQueue;
 
-public class dijkstraAlgo {
+public class Dijkstra_Algo {
     public static class edge {
         int src;
         int dest;

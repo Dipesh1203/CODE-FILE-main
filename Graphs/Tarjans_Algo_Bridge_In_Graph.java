@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class bridgeInGraphTarjans {
+public class Tarjans_Algo_Bridge_In_Graph {
     static class Edge {
         int src;
         int dest;

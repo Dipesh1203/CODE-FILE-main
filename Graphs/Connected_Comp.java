@@ -1,7 +1,7 @@
 import java.util.*;
 import java.util.LinkedList;
 
-public class connectedComp {
+public class Connected_Comp {
     static class Edge {
         int src;
         int dest;

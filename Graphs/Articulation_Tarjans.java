@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class articulationTarjans {
+public class Articulation_Tarjans {
     static class Edge {
         int src;
         int dest;
